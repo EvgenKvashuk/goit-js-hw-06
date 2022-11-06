@@ -7,12 +7,12 @@ const ingredients = [
   'Condiments',
 ];
 
-const NavEl = document.querySelector('#ingredients');
+const navEl = document.querySelector('#ingredients');
 
-fingridewnts.forEach(element => {
+ingredients.forEach(element => {
   const itemEl = document.createElement('li');
 
   itemEl.classList.add('item');
-  iremEl.textContent = element;
+  itemEl.textContent = element;
   navEl.appendChild(itemEl);
 });
